@@ -3,7 +3,7 @@ const app = express();
 
 // get the port from env variable
 const PORT = process.env.PORT || 5001;
-console.log('test CI')
+console.log('test CI2')
 
 app.use(express.static("dist"));
 
